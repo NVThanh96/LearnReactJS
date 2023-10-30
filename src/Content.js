@@ -7,20 +7,20 @@ const Content = () => {
         return names[int];
       }
 
+      // 
       const handleClick = () => {
         console.log("you click it");
       }
       
+      // lấy tên random trong handleNameChange và nối với click it
       const handleClick2 = (name) => {
         console.log(`${name} click it`);
       }
       
-      // lấy giá trị của nút 
+      // lấy giá trị của nút và hiện thị 
       const handleClick3 = (e) => {
         console.log(e.target.innerText);
       }
-
-
 
   return (
     <main>
